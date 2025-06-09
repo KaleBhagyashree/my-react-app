@@ -1,5 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import Header from '../components/Header';
+import '@testing-library/jest-dom';
+
 
 test('renders header with correct text', () => {
   render(<Header />);
